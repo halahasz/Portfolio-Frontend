@@ -21,8 +21,8 @@ $(document).ready(function() {
 		if($(document).scrollTop() > $('.wrapper-ossom').offset().top-700) 
 		{$('.wrapper-ossom').removeClass('hidden');}
 
-		if($(document).scrollTop() > $('.wrapper-graphics').offset().top-700) 
-		{$('.wrapper-graphics').removeClass('hidden_right');}
+		if($(document).scrollTop() > $('.wrapper-labuzek').offset().top-700) 
+		{$('.wrapper-labuzek').removeClass('hidden_right');}
 
 		if($(document).scrollTop() > $('.wrapper-musician').offset().top-700) 
 		{$('.wrapper-musician').removeClass('hidden');}
@@ -36,8 +36,8 @@ $(document).ready(function() {
 		if($(document).scrollTop() > $('.wrapper-afro').offset().top-700) 
 		{$('.wrapper-afro').removeClass('hidden_right');}
 		
-		if($(document).scrollTop() > $('.wrapper-labuzek').offset().top-700) 
-		{$('.wrapper-labuzek').removeClass('hidden');}
+		if($(document).scrollTop() > $('.wrapper-graphics').offset().top-700) 
+		{$('.wrapper-graphics').removeClass('hidden');}
 
 		if (window.matchMedia('(max-width: 400px)').matches && $('.bar').offset().top-700) {
 			$('.html').delay(1500).animate({width: 200}, 1000);
@@ -92,7 +92,7 @@ $(document).ready(function() {
 	};
 
 	function parallaxScroll2() {
-		var scrolledY = jQuery(window).scrollTop()-700;
+		var scrolledY = jQuery(window).scrollTop()-800;
 		var headerImage = jQuery('.background2');
 		headerImage.css('background-position', 'center -' + ((scrolledY * 0.25)) + 'px');
 	};

@@ -40,24 +40,24 @@ $(document).ready(function() {
 		{$('.wrapper-graphics').removeClass('hidden');}
 
 		if (window.matchMedia('(max-width: 400px)').matches && $('.bar').offset().top-700) {
-			$('.html').delay(1500).animate({width: 200}, 1000);
+		$('.html').delay(1500).animate({width: 200}, 1000);
 			$('.css').delay(1700).animate({width: 170}, 1000);
 			$('.javascript').delay(1900).animate({width: 50}, 1000);
 			$('.jquery').delay(2100).animate({width: 90}, 1000);
-			$('.wordpress').delay(2300).animate({width: 170}, 1000);
-			$('.bootstrap').delay(2500).animate({width: 170}, 1000);
-			$('.rwd').delay(2700).animate({width: 230}, 1000);
-			$('.photoshop').delay(2900).animate({width: 210}, 1000);
+			$('.wordpress').delay(2300).animate({width: 130}, 1000);
+			$('.bootstrap').delay(2500).animate({width: 120}, 1000);
+			$('.rwd').delay(2700).animate({width: 210}, 1000);
+			$('.photoshop').delay(2900).animate({width: 190}, 1000);
 
 		} else {
 			$('.html').delay(1500).animate({width: 250}, 1000);
 			$('.css').delay(1700).animate({width: 220}, 1000);
-			$('.javascript').delay(1900).animate({width: 40}, 1000);
-			$('.jquery').delay(2100).animate({width: 70}, 1000);
-			$('.wordpress').delay(2300).animate({width: 200}, 1000);
-			$('.bootstrap').delay(2500).animate({width: 200}, 1000);
-			$('.rwd').delay(2700).animate({width: 280}, 1000);
-			$('.photoshop').delay(2900).animate({width: 260}, 1000);
+			$('.javascript').delay(1900).animate({width: 60}, 1000);
+			$('.jquery').delay(2100).animate({width: 100}, 1000);
+			$('.wordpress').delay(2300).animate({width: 150}, 1000);
+			$('.bootstrap').delay(2500).animate({width: 140}, 1000);
+			$('.rwd').delay(2700).animate({width: 250}, 1000);
+			$('.photoshop').delay(2900).animate({width: 220}, 1000);
 		}
 	});
 

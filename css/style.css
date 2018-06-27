@@ -178,7 +178,7 @@ li {
   padding-top: 70px; }
 
 .container-bars-inner {
-  overflow-x: hidden;
+  overflow: hidden;
   margin: 0 auto;
   text-align: center; }
   .container-bars-inner ul {

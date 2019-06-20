@@ -290,17 +290,17 @@ li span {
 .projects-container .title-zeeko {
   margin-left: 30.5%;
 }
-.projects-container .title-city_app {
-  margin-left: 62%;
+.projects-container .title-react_app {
+  margin-left: 61%;
 }
-.projects-container .title-labuzek {
+.projects-container .title-wola {
   margin-left: 58.5%;
 }
-.projects-container .title-musician {
+.projects-container .title-opta-tech {
   margin-left: 30.5%;
 }
-.projects-container .title-aviation {
-  margin-left: 53%;
+.projects-container .title-smile {
+  margin-left: 55%;
 }
 .projects-container .title-misztal {
   margin-left: 29.5%;
@@ -343,7 +343,7 @@ li span {
   }
 }
 
-.wrapper-city_app {
+.wrapper-react_app {
   transition: all 1s;
   width: 20%;
   overflow: hidden;
@@ -351,31 +351,31 @@ li span {
   margin-top: -15%;
 }
 @media (max-width: 1300px) {
-  .wrapper-city_app {
+  .wrapper-react_app {
     width: 30%;
   }
 }
 @media (max-width: 850px) {
-  .wrapper-city_app {
+  .wrapper-react_app {
     width: 38%;
   }
 }
 @media (max-width: 650px) {
-  .wrapper-city_app {
+  .wrapper-react_app {
     width: 55%;
     margin-top: 10%;
     margin-left: 20%;
   }
 }
 @media (max-width: 450px) {
-  .wrapper-city_app {
+  .wrapper-react_app {
     width: 75%;
     margin-top: 15%;
     margin-left: 15%;
   }
 }
 
-.wrapper-labuzek {
+.wrapper-wola {
   transition: all 1s;
   width: 20%;
   overflow: hidden;
@@ -383,32 +383,32 @@ li span {
   margin-top: 5%;
 }
 @media (max-width: 1300px) {
-  .wrapper-labuzek {
+  .wrapper-wola {
     width: 30%;
     margin-top: 8%;
   }
 }
 @media (max-width: 850px) {
-  .wrapper-labuzek {
+  .wrapper-wola {
     width: 38%;
   }
 }
 @media (max-width: 650px) {
-  .wrapper-labuzek {
+  .wrapper-wola {
     width: 55%;
     margin-top: 10%;
     margin-left: 30%;
   }
 }
 @media (max-width: 450px) {
-  .wrapper-labuzek {
+  .wrapper-wola {
     width: 75%;
     margin-top: 15%;
     margin-left: 20%;
   }
 }
 
-.wrapper-musician {
+.wrapper-opta-tech {
   transition: all 1s;
   width: 15%;
   overflow: hidden;
@@ -416,35 +416,35 @@ li span {
   margin-top: -15%;
 }
 @media (max-width: 1300px) {
-  .wrapper-musician {
+  .wrapper-opta-tech {
     width: 25%;
     margin-top: -15%;
     margin-left: 17%;
   }
 }
 @media (max-width: 850px) {
-  .wrapper-musician {
+  .wrapper-opta-tech {
     width: 30%;
     margin-top: -20%;
     margin-left: 12%;
   }
 }
 @media (max-width: 650px) {
-  .wrapper-musician {
+  .wrapper-opta-tech {
     width: 45%;
     margin-top: 10%;
     margin-left: 23%;
   }
 }
 @media (max-width: 450px) {
-  .wrapper-musician {
+  .wrapper-opta-tech {
     width: 60%;
     margin-top: 15%;
     margin-left: 13%;
   }
 }
 
-.wrapper-aviation {
+.wrapper-smile {
   transition: all 1s;
   width: 15%;
   overflow: hidden;
@@ -452,28 +452,28 @@ li span {
   margin-top: -5%;
 }
 @media (max-width: 1300px) {
-  .wrapper-aviation {
+  .wrapper-smile {
     width: 24%;
     margin-top: -10%;
     margin-left: 50%;
   }
 }
 @media (max-width: 850px) {
-  .wrapper-aviation {
+  .wrapper-smile {
     width: 30%;
     margin-top: -10%;
     margin-left: 50%;
   }
 }
 @media (max-width: 650px) {
-  .wrapper-aviation {
+  .wrapper-smile {
     width: 45%;
     margin-top: 10%;
     margin-left: 35%;
   }
 }
 @media (max-width: 450px) {
-  .wrapper-aviation {
+  .wrapper-smile {
     width: 60%;
     margin-top: 15%;
     margin-left: 25%;
@@ -598,12 +598,12 @@ li span {
   transform: translateY(-20px);
 }
 
-.wrapper-musician:hover + .title-musician {
+.wrapper-opta-tech:hover + .title-opta-tech {
   opacity: 0;
   transform: translateY(-20px);
 }
 
-.wrapper-aviation:hover + .title-aviation {
+.wrapper-smile:hover + .title-smile {
   opacity: 0;
   transform: translateY(-20px);
 }
@@ -618,12 +618,12 @@ li span {
   transform: translateY(-20px);
 }
 
-.wrapper-labuzek:hover + .title-labuzek {
+.wrapper-wola:hover + .title-wola {
   opacity: 0;
   transform: translateY(-20px);
 }
 
-.wrapper-city_app:hover + .title-city_app {
+.wrapper-react_app:hover + .title-react_app {
   opacity: 0;
   transform: translateY(-20px);
 }
@@ -696,28 +696,28 @@ li span {
   color: #fff;
 }
 
-.musician::after {
+.opta-tech::after {
   color: #fff;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(25, 59, 107, 0.4);
   padding-top: 75%;
 }
-.musician::before {
+.opta-tech::before {
   color: #fff;
   padding-top: 50%;
 }
 
-.aviation::after {
+.smile::after {
   color: #000;
   background: rgba(202, 242, 243, 0.6);
   padding-top: 70%;
 }
-.aviation::before {
+.smile::before {
   color: #000;
   padding-top: 30%;
   transform: translateY(-120%);
 }
 @media (max-width: 1300px) {
-  .aviation::before {
+  .smile::before {
     transform: translateY(0%);
   }
 }
@@ -754,34 +754,35 @@ li span {
   }
 }
 
-.labuzek::after {
+.wola::after {
   color: #fff;
-  background: rgba(0, 0, 0, 0.4);
-  padding-top: 40%;
+  background: rgba(229, 28, 85, 0.3);
+  padding-top: 35%;
 }
-.labuzek::before {
+.wola::before {
   color: #fff;
-  padding-top: 22%;
+  padding-top: 18%;
   transform: translateY(-130%);
 }
 @media (max-width: 1300px) {
-  .labuzek::before {
+  .wola::before {
     transform: translateY(0%);
   }
 }
 
-.city_app::after {
+.react_app::after {
   color: #fff;
   background: rgba(0, 0, 0, 0.4);
-  padding-top: 40%;
+  margin-bottom: 5px;
+  padding-top: 30%;
 }
-.city_app::before {
+.react_app::before {
   color: #fff;
-  padding-top: 22%;
+  padding-top: 15%;
   transform: translateY(-130%);
 }
 @media (max-width: 1300px) {
-  .city_app::before {
+  .react_app::before {
     transform: translateY(0%);
   }
 }

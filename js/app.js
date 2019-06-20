@@ -19,11 +19,11 @@ $(document).ready(function () {
 
       if ($(document).scrollTop() > $('.wrapper-zeeko').offset().top - 700) { $('.wrapper-zeeko').removeClass('hidden'); }
 
-      if ($(document).scrollTop() > $('.wrapper-labuzek').offset().top - 700) { $('.wrapper-labuzek').removeClass('hidden_right'); }
+      if ($(document).scrollTop() > $('.wrapper-wola').offset().top - 700) { $('.wrapper-wola').removeClass('hidden_right'); }
 
-      if ($(document).scrollTop() > $('.wrapper-musician').offset().top - 700) { $('.wrapper-musician').removeClass('hidden'); }
+      if ($(document).scrollTop() > $('.wrapper-opta-tech').offset().top - 700) { $('.wrapper-opta-tech').removeClass('hidden'); }
 
-      if ($(document).scrollTop() > $('.wrapper-aviation').offset().top - 700) { $('.wrapper-aviation').removeClass('hidden_right'); }
+      if ($(document).scrollTop() > $('.wrapper-smile').offset().top - 700) { $('.wrapper-smile').removeClass('hidden_right'); }
 
       if ($(document).scrollTop() > $('.wrapper-misztal').offset().top - 700) { $('.wrapper-misztal').removeClass('hidden'); }
 
@@ -31,7 +31,7 @@ $(document).ready(function () {
 
       if ($(document).scrollTop() > $('.wrapper-graphics').offset().top - 700) { $('.wrapper-graphics').removeClass('hidden'); }
 
-      if ($(document).scrollTop() > $('.wrapper-city_app').offset().top - 700) { $('.wrapper-city_app').removeClass('hidden_right'); }
+      if ($(document).scrollTop() > $('.wrapper-react_app').offset().top - 700) { $('.wrapper-react_app').removeClass('hidden_right'); }
 
       if (window.matchMedia('(max-width: 400px)').matches && $('.bar').offset().top - 700) {
          $('.html').delay(1500).animate({ width: 200 }, 1000);

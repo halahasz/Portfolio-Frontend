@@ -295,17 +295,17 @@ li {
   .title-zeeko {
     margin-left: 30.5%;
   }
-  .title-city_app {
-    margin-left: 62%;
+  .title-react_app {
+    margin-left: 61%;
   }
-  .title-labuzek {
+  .title-wola {
     margin-left: 58.5%;
   }
-  .title-musician {
+  .title-opta-tech {
     margin-left: 30.5%;
   }
-  .title-aviation {
-    margin-left: 53%;
+  .title-smile {
+    margin-left: 55%;
   }
   .title-misztal {
     margin-left: 29.5%;
@@ -341,7 +341,7 @@ li {
   }
 }
 
-.wrapper-city_app {
+.wrapper-react_app {
   transition: all 1s;
   width: 20%;
   overflow: hidden;
@@ -365,7 +365,7 @@ li {
   }
 }
 
-.wrapper-labuzek {
+.wrapper-wola {
   transition: all 1s;
   width: 20%;
   overflow: hidden;
@@ -390,7 +390,7 @@ li {
   }
 }
 
-.wrapper-musician {
+.wrapper-opta-tech {
   transition: all 1s;
   width: 15%;
   overflow: hidden;
@@ -418,7 +418,7 @@ li {
   }
 }
 
-.wrapper-aviation {
+.wrapper-smile {
   transition: all 1s;
   width: 15%;
   overflow: hidden;
@@ -540,12 +540,12 @@ li {
   transform: translateY(-20px);
 }
 
-.wrapper-musician:hover + .title-musician {
+.wrapper-opta-tech:hover + .title-opta-tech {
   opacity: 0;
   transform: translateY(-20px);
 }
 
-.wrapper-aviation:hover + .title-aviation {
+.wrapper-smile:hover + .title-smile {
   opacity: 0;
   transform: translateY(-20px);
 }
@@ -560,12 +560,12 @@ li {
   transform: translateY(-20px);
 }
 
-.wrapper-labuzek:hover + .title-labuzek {
+.wrapper-wola:hover + .title-wola {
   opacity: 0;
   transform: translateY(-20px);
 }
 
-.wrapper-city_app:hover + .title-city_app {
+.wrapper-react_app:hover + .title-react_app {
   opacity: 0;
   transform: translateY(-20px);
 }
@@ -642,10 +642,10 @@ li {
   }
 }
 
-.musician {
+.opta-tech {
   &::after {
     color: #fff;
-    background: rgba(#000, 0.4);
+    background: rgba(#193b6b, 0.4);
     padding-top: 75%;
   }
   &::before {
@@ -654,7 +654,7 @@ li {
   }
 }
 
-.aviation {
+.smile {
   &::after {
     color: #000;
     background: rgba(#caf2f3, 0.6);
@@ -702,15 +702,15 @@ li {
   }
 }
 
-.labuzek {
+.wola {
   &::after {
     color: #fff;
-    background: rgba(#000, 0.4);
-    padding-top: 40%;
+    background: rgba(#e51c55, 0.3);
+    padding-top: 35%;
   }
   &::before {
     color: #fff;
-    padding-top: 22%;
+    padding-top: 18%;
     transform: translateY(-130%);
     @media (max-width: 1300px) {
       transform: translateY(0%);
@@ -718,15 +718,16 @@ li {
   }
 }
 
-.city_app {
+.react_app {
   &::after {
     color: #fff;
-    background: rgba(#000, 0.4);
-    padding-top: 40%;
+		background: rgba(#000, 0.4);
+		margin-bottom: 5px;
+    padding-top: 30%;
   }
   &::before {
     color: #fff;
-    padding-top: 22%;
+    padding-top: 15%;
     transform: translateY(-130%);
     @media (max-width: 1300px) {
       transform: translateY(0%);

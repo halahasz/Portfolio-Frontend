@@ -302,16 +302,16 @@ li {
     margin-left: 58.5%;
   }
   .title-opta-tech {
-    margin-left: 30.5%;
+    margin-left: 33%;
   }
   .title-smile {
     margin-left: 55%;
   }
   .title-poland-travel {
-    margin-left: 29.5%;
+    margin-left: 27%;
   }
-  .title-afro {
-    margin-left: 58%;
+  .title-stop {
+    margin-left: 59.5%;
   }
   .title-graphics {
     margin-left: 33%;
@@ -474,7 +474,7 @@ li {
   }
 }
 
-.wrapper-afro {
+.wrapper-stop {
   transition: all 1s;
   width: 17%;
   overflow: hidden;
@@ -555,7 +555,7 @@ li {
   transform: translateY(-20px);
 }
 
-.wrapper-afro:hover + .title-afro {
+.wrapper-stop:hover + .title-stop {
   opacity: 0;
   transform: translateY(-20px);
 }
@@ -656,12 +656,12 @@ li {
 
 .smile {
   &::after {
-    color: #000;
-    background: rgba(#caf2f3, 0.6);
+    color: white;
+    background: rgba(#000, 0.1);
     padding-top: 70%;
   }
   &::before {
-    color: #000;
+    color: white;
     padding-top: 30%;
     transform: translateY(-120%);
     @media (max-width: 1300px) {
@@ -672,12 +672,12 @@ li {
 
 .poland-travel {
   &::after {
-    color: #000;
+    color: white;
     background: rgba(#60ceea, 0.5);
     padding-top: 25%;
   }
   &::before {
-    color: #000;
+    color: white;
     padding-top: 12%;
     transform: translateY(-130%);
     @media (max-width: 1300px) {
@@ -686,10 +686,10 @@ li {
   }
 }
 
-.afro {
+.stop {
   &::after {
     color: #fff;
-    background: rgba(#000, 0.2);
+    background: rgba(#000, 0.3);
     padding-top: 65%;
   }
   &::before {
@@ -780,7 +780,7 @@ li {
   width: 20%;
   margin-left: 20%;
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 90px;
   img {
     width: 100%;
   }
@@ -848,7 +848,7 @@ footer {
   margin-left: 17%;
   text-align: center;
   border-top: 1px solid black;
-  padding: 40px 0;
+  padding: 20px 0;
   p {
     margin: 0;
     display: inline-block;

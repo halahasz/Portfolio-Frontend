@@ -27,7 +27,7 @@ $(document).ready(function () {
 
       if ($(document).scrollTop() > $('.wrapper-poland-travel').offset().top - 700) { $('.wrapper-poland-travel').removeClass('hidden'); }
 
-      if ($(document).scrollTop() > $('.wrapper-afro').offset().top - 700) { $('.wrapper-afro').removeClass('hidden_right'); }
+      if ($(document).scrollTop() > $('.wrapper-stop').offset().top - 700) { $('.wrapper-stop').removeClass('hidden_right'); }
 
       if ($(document).scrollTop() > $('.wrapper-graphics').offset().top - 700) { $('.wrapper-graphics').removeClass('hidden'); }
 
@@ -86,9 +86,9 @@ $(document).ready(function () {
    };
 
    function parallaxScroll2() {
-      var scrolledY = jQuery(window).scrollTop() - 900;
+      var scrolledY = jQuery(window).scrollTop() - 700;
       var headerImage = jQuery('.background2');
-      headerImage.css('background-position', 'center -' + ((scrolledY * 0.15)) + 'px');
+      headerImage.css('background-position', 'center -' + ((scrolledY * 0.25)) + 'px');
    };
 
    // Parallax Background on Desktop

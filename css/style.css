@@ -302,7 +302,7 @@ li span {
 .projects-container .title-smile {
   margin-left: 55%;
 }
-.projects-container .title-misztal {
+.projects-container .title-poland-travel {
   margin-left: 29.5%;
 }
 .projects-container .title-afro {
@@ -480,7 +480,7 @@ li span {
   }
 }
 
-.wrapper-misztal {
+.wrapper-poland-travel {
   transition: all 1s;
   width: 25%;
   overflow: hidden;
@@ -488,28 +488,28 @@ li span {
   margin-top: -10%;
 }
 @media (max-width: 1300px) {
-  .wrapper-misztal {
+  .wrapper-poland-travel {
     width: 31%;
     margin-top: -2%;
     margin-left: 10%;
   }
 }
 @media (max-width: 850px) {
-  .wrapper-misztal {
+  .wrapper-poland-travel {
     width: 35%;
     margin-top: -2%;
     margin-left: 8%;
   }
 }
 @media (max-width: 650px) {
-  .wrapper-misztal {
+  .wrapper-poland-travel {
     width: 60%;
     margin-top: 10%;
     margin-left: 8%;
   }
 }
 @media (max-width: 450px) {
-  .wrapper-misztal {
+  .wrapper-poland-travel {
     width: 80%;
     margin-top: 15%;
     margin-left: 8%;
@@ -608,7 +608,7 @@ li span {
   transform: translateY(-20px);
 }
 
-.wrapper-misztal:hover + .title-misztal {
+.wrapper-poland-travel:hover + .title-poland-travel {
   opacity: 0;
   transform: translateY(-20px);
 }
@@ -722,18 +722,18 @@ li span {
   }
 }
 
-.misztal::after {
+.poland-travel::after {
   color: #000;
-  background: rgba(155, 222, 169, 0.4);
+  background: rgba(96, 206, 234, 0.5);
   padding-top: 25%;
 }
-.misztal::before {
+.poland-travel::before {
   color: #000;
   padding-top: 12%;
   transform: translateY(-130%);
 }
 @media (max-width: 1300px) {
-  .misztal::before {
+  .poland-travel::before {
     transform: translateY(0%);
   }
 }

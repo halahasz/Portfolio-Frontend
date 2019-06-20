@@ -25,7 +25,7 @@ $(document).ready(function () {
 
       if ($(document).scrollTop() > $('.wrapper-smile').offset().top - 700) { $('.wrapper-smile').removeClass('hidden_right'); }
 
-      if ($(document).scrollTop() > $('.wrapper-misztal').offset().top - 700) { $('.wrapper-misztal').removeClass('hidden'); }
+      if ($(document).scrollTop() > $('.wrapper-poland-travel').offset().top - 700) { $('.wrapper-poland-travel').removeClass('hidden'); }
 
       if ($(document).scrollTop() > $('.wrapper-afro').offset().top - 700) { $('.wrapper-afro').removeClass('hidden_right'); }
 

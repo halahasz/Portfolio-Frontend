@@ -17,7 +17,7 @@ $(document).ready(function () {
 
       if ($(document).scrollTop() > $('.bar').offset().top - 600) { $('.bar').removeClass('hidden_right'); }
 
-      if ($(document).scrollTop() > $('.wrapper-ossom').offset().top - 700) { $('.wrapper-ossom').removeClass('hidden'); }
+      if ($(document).scrollTop() > $('.wrapper-zeeko').offset().top - 700) { $('.wrapper-zeeko').removeClass('hidden'); }
 
       if ($(document).scrollTop() > $('.wrapper-labuzek').offset().top - 700) { $('.wrapper-labuzek').removeClass('hidden_right'); }
 
@@ -36,22 +36,22 @@ $(document).ready(function () {
       if (window.matchMedia('(max-width: 400px)').matches && $('.bar').offset().top - 700) {
          $('.html').delay(1500).animate({ width: 200 }, 1000);
          $('.css').delay(1700).animate({ width: 170 }, 1000);
-         $('.javascript').delay(1900).animate({ width: 40 }, 1000);
-         $('.jquery').delay(2100).animate({ width: 100 }, 1000);
-         $('.wordpress').delay(2300).animate({ width: 130 }, 1000);
+         $('.jquery').delay(2100).animate({ width: 120 }, 1000);
+         $('.react').delay(1900).animate({ width: 80 }, 1000);
+         $('.wordpress').delay(2300).animate({ width: 160 }, 1000);
          $('.bootstrap').delay(2500).animate({ width: 120 }, 1000);
-         $('.rwd').delay(2700).animate({ width: 210 }, 1000);
-         $('.photoshop').delay(2900).animate({ width: 190 }, 1000);
+         $('.rwd').delay(2700).animate({ width: 200 }, 1000);
+         $('.photoshop').delay(2900).animate({ width: 170 }, 1000);
 
       } else {
          $('.html').delay(1500).animate({ width: 250 }, 1000);
          $('.css').delay(1700).animate({ width: 220 }, 1000);
-         $('.javascript').delay(1900).animate({ width: 50 }, 1000);
-         $('.jquery').delay(2100).animate({ width: 110 }, 1000);
-         $('.wordpress').delay(2300).animate({ width: 150 }, 1000);
+         $('.jquery').delay(2100).animate({ width: 160 }, 1000);
+         $('.react').delay(1900).animate({ width: 100 }, 1000);
+         $('.wordpress').delay(2300).animate({ width: 200 }, 1000);
          $('.bootstrap').delay(2500).animate({ width: 140 }, 1000);
          $('.rwd').delay(2700).animate({ width: 250 }, 1000);
-         $('.photoshop').delay(2900).animate({ width: 220 }, 1000);
+         $('.photoshop').delay(2900).animate({ width: 200 }, 1000);
       }
    });
 
@@ -86,9 +86,9 @@ $(document).ready(function () {
    };
 
    function parallaxScroll2() {
-      var scrolledY = jQuery(window).scrollTop() - 800;
+      var scrolledY = jQuery(window).scrollTop() - 900;
       var headerImage = jQuery('.background2');
-      headerImage.css('background-position', 'center -' + ((scrolledY * 0.25)) + 'px');
+      headerImage.css('background-position', 'center -' + ((scrolledY * 0.15)) + 'px');
    };
 
    // Parallax Background on Desktop

@@ -919,9 +919,27 @@ footer p {
   }
 }
 
+.footer-about {
+  padding-bottom: 50px;
+}
 @media (max-width: 768px) {
   .footer-about {
     margin-top: 400px;
+  }
+}
+
+.push-top {
+  animation-name: push-top;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+}
+
+@keyframes push-top {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0px);
   }
 }
 

@@ -291,7 +291,7 @@ li span {
   margin-left: 30.5%;
 }
 .projects-container .title-react_app {
-  margin-left: 61%;
+  margin-left: 61.5%;
 }
 .projects-container .title-wola {
   margin-left: 58.5%;
@@ -770,15 +770,18 @@ li span {
   }
 }
 
+.react_app {
+  width: 90%;
+}
 .react_app::after {
   color: #fff;
   background: rgba(0, 0, 0, 0.4);
   margin-bottom: 5px;
-  padding-top: 30%;
+  padding-top: 53%;
 }
 .react_app::before {
   color: #fff;
-  padding-top: 15%;
+  padding-top: 36%;
   transform: translateY(-130%);
 }
 @media (max-width: 1300px) {

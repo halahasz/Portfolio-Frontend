@@ -296,7 +296,7 @@ li {
     margin-left: 30.5%;
   }
   .title-react_app {
-    margin-left: 61%;
+    margin-left: 61.5%;
   }
   .title-wola {
     margin-left: 58.5%;
@@ -719,15 +719,16 @@ li {
 }
 
 .react_app {
+  width: 90%;
   &::after {
     color: #fff;
-		background: rgba(#000, 0.4);
-		margin-bottom: 5px;
-    padding-top: 30%;
+    background: rgba(#000, 0.4);
+    margin-bottom: 5px;
+    padding-top: 53%;
   }
   &::before {
     color: #fff;
-    padding-top: 15%;
+    padding-top: 36%;
     transform: translateY(-130%);
     @media (max-width: 1300px) {
       transform: translateY(0%);

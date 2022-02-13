@@ -1,5 +1,6 @@
 html {
   overflow-x: hidden;
+  overflow-y: overlay;
 }
 
 body {
@@ -287,14 +288,20 @@ li span {
     display: none;
   }
 }
-.projects-container .title-zeeko {
-  margin-left: 30.5%;
+.projects-container .title-enzymatica {
+  margin-left: 30%;
+}
+.projects-container .title-coldzyme {
+  margin-left: 58.5%;
+}
+.projects-container .title-recipes {
+  margin-left: 29%;
 }
 .projects-container .title-react_app {
   margin-left: 61.5%;
 }
-.projects-container .title-wola {
-  margin-left: 58.5%;
+.projects-container .title-graphics {
+  margin-left: 57%;
 }
 .projects-container .title-opta-tech {
   margin-left: 33%;
@@ -305,41 +312,110 @@ li span {
 .projects-container .title-poland-travel {
   margin-left: 27%;
 }
-.projects-container .title-stop {
-  margin-left: 59.5%;
+.projects-container .title-zeeko {
+  margin-left: 58%;
 }
-.projects-container .title-graphics {
+.projects-container .title-wola {
   margin-left: 33%;
 }
 
-.wrapper-zeeko {
+.wrapper-enzymatica {
   transition: all 1s;
-  width: 22%;
+  width: 23%;
   overflow: hidden;
-  margin-left: 25%;
+  margin-left: 22%;
 }
 @media (max-width: 1300px) {
-  .wrapper-zeeko {
+  .wrapper-enzymatica {
     width: 30%;
-    margin-left: 15%;
   }
 }
 @media (max-width: 850px) {
-  .wrapper-zeeko {
+  .wrapper-enzymatica {
     width: 38%;
-    margin-left: 8%;
   }
 }
 @media (max-width: 650px) {
-  .wrapper-zeeko {
+  .wrapper-enzymatica {
     width: 55%;
-    margin-left: 12%;
+    margin-top: 10%;
+    margin-left: 20%;
   }
 }
 @media (max-width: 450px) {
-  .wrapper-zeeko {
+  .wrapper-enzymatica {
     width: 75%;
-    margin-left: 8%;
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+}
+
+.wrapper-coldzyme {
+  transition: all 1s;
+  width: 23%;
+  overflow: hidden;
+  margin-left: 50%;
+  margin-top: -7%;
+}
+@media (max-width: 1300px) {
+  .wrapper-coldzyme {
+    width: 30%;
+    margin-top: 8%;
+  }
+}
+@media (max-width: 850px) {
+  .wrapper-coldzyme {
+    width: 38%;
+  }
+}
+@media (max-width: 650px) {
+  .wrapper-coldzyme {
+    width: 55%;
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+}
+@media (max-width: 450px) {
+  .wrapper-coldzyme {
+    width: 75%;
+    margin-top: 15%;
+    margin-left: 20%;
+  }
+}
+
+.wrapper-recipes {
+  transition: all 1s;
+  width: 20%;
+  overflow: hidden;
+  margin-left: 24%;
+  margin-top: -5%;
+}
+@media (max-width: 1300px) {
+  .wrapper-recipes {
+    width: 30%;
+    margin-top: -17%;
+    margin-left: 18%;
+  }
+}
+@media (max-width: 850px) {
+  .wrapper-recipes {
+    width: 35%;
+    margin-top: -17%;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 650px) {
+  .wrapper-recipes {
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 18%;
+  }
+}
+@media (max-width: 450px) {
+  .wrapper-recipes {
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 18%;
   }
 }
 
@@ -348,7 +424,7 @@ li span {
   width: 20%;
   overflow: hidden;
   margin-left: 57%;
-  margin-top: -15%;
+  margin-top: -8%;
 }
 @media (max-width: 1300px) {
   .wrapper-react_app {
@@ -375,33 +451,33 @@ li span {
   }
 }
 
-.wrapper-wola {
+.wrapper-graphics {
   transition: all 1s;
   width: 20%;
   overflow: hidden;
   margin-left: 52%;
-  margin-top: 5%;
+  margin-top: -3%;
 }
 @media (max-width: 1300px) {
-  .wrapper-wola {
+  .wrapper-graphics {
     width: 30%;
     margin-top: 8%;
   }
 }
 @media (max-width: 850px) {
-  .wrapper-wola {
+  .wrapper-graphics {
     width: 38%;
   }
 }
 @media (max-width: 650px) {
-  .wrapper-wola {
+  .wrapper-graphics {
     width: 55%;
     margin-top: 10%;
     margin-left: 30%;
   }
 }
 @media (max-width: 450px) {
-  .wrapper-wola {
+  .wrapper-graphics {
     width: 75%;
     margin-top: 15%;
     margin-left: 20%;
@@ -413,7 +489,7 @@ li span {
   width: 15%;
   overflow: hidden;
   margin-left: 28%;
-  margin-top: -15%;
+  margin-top: -10%;
 }
 @media (max-width: 1300px) {
   .wrapper-opta-tech {
@@ -441,42 +517,6 @@ li span {
     width: 60%;
     margin-top: 15%;
     margin-left: 13%;
-  }
-}
-
-.wrapper-smile {
-  transition: all 1s;
-  width: 15%;
-  overflow: hidden;
-  margin-left: 52%;
-  margin-top: -5%;
-}
-@media (max-width: 1300px) {
-  .wrapper-smile {
-    width: 24%;
-    margin-top: -10%;
-    margin-left: 50%;
-  }
-}
-@media (max-width: 850px) {
-  .wrapper-smile {
-    width: 30%;
-    margin-top: -10%;
-    margin-left: 50%;
-  }
-}
-@media (max-width: 650px) {
-  .wrapper-smile {
-    width: 45%;
-    margin-top: 10%;
-    margin-left: 35%;
-  }
-}
-@media (max-width: 450px) {
-  .wrapper-smile {
-    width: 60%;
-    margin-top: 15%;
-    margin-left: 25%;
   }
 }
 
@@ -516,76 +556,86 @@ li span {
   }
 }
 
-.wrapper-stop {
-  transition: all 1s;
-  width: 17%;
-  overflow: hidden;
-  margin-left: 55%;
-  margin-top: 0%;
-}
-@media (max-width: 1300px) {
-  .wrapper-stop {
-    width: 24%;
-    margin-top: -2%;
-    margin-left: 58%;
-  }
-}
-@media (max-width: 850px) {
-  .wrapper-stop {
-    width: 31%;
-    margin-top: -2%;
-    margin-left: 58%;
-  }
-}
-@media (max-width: 650px) {
-  .wrapper-stop {
-    width: 47%;
-    margin-top: 10%;
-    margin-left: 25%;
-  }
-}
-@media (max-width: 450px) {
-  .wrapper-stop {
-    width: 60%;
-    margin-top: 15%;
-    margin-left: 15%;
-  }
-}
-
-.wrapper-graphics {
+.wrapper-zeeko {
   transition: all 1s;
   width: 22%;
   overflow: hidden;
-  margin-left: 27%;
-  margin-top: -15%;
+  margin-left: 52%;
 }
 @media (max-width: 1300px) {
-  .wrapper-graphics {
+  .wrapper-zeeko {
+    width: 30%;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 850px) {
+  .wrapper-zeeko {
+    width: 38%;
+    margin-left: 8%;
+  }
+}
+@media (max-width: 650px) {
+  .wrapper-zeeko {
+    width: 55%;
+    margin-left: 12%;
+  }
+}
+@media (max-width: 450px) {
+  .wrapper-zeeko {
+    width: 75%;
+    margin-left: 8%;
+  }
+}
+
+.wrapper-wola {
+  transition: all 1s;
+  width: 22%;
+  overflow: hidden;
+  margin-left: 25.5%;
+  margin-top: -11%;
+}
+@media (max-width: 1300px) {
+  .wrapper-wola {
     width: 30%;
     margin-top: -17%;
     margin-left: 18%;
   }
 }
 @media (max-width: 850px) {
-  .wrapper-graphics {
+  .wrapper-wola {
     width: 35%;
     margin-top: -17%;
     margin-left: 15%;
   }
 }
 @media (max-width: 650px) {
-  .wrapper-graphics {
+  .wrapper-wola {
     width: 60%;
     margin-top: 10%;
     margin-left: 18%;
   }
 }
 @media (max-width: 450px) {
-  .wrapper-graphics {
+  .wrapper-wola {
     width: 70%;
     margin-top: 15%;
     margin-left: 18%;
   }
+}
+
+.wrapper-enzymatica:hover + .title-enzymatica {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.wrapper-coldzyme:hover + .title-coldzyme {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.wrapper-recipes:hover + .title-recipes {
+  opacity: 0;
+  transform: translateY(-20px);
 }
 
 .wrapper-zeeko:hover + .title-zeeko {
@@ -643,12 +693,13 @@ li span {
   width: 100%;
   height: 100%;
   color: #000;
+  font-size: 14px;
   z-index: 1;
   transition: all 700ms ease;
   text-align: center;
   content: attr(data-description);
   background: rgba(63, 127, 123, 0.5);
-  top: 0%;
+  top: 1%;
   padding: 20px;
   padding-top: 37%;
   transform: translateY(100%);
@@ -667,7 +718,7 @@ li span {
   transition: all 700ms ease;
   content: attr(data-title);
   font-weight: 500;
-  font-size: 25px;
+  font-size: 21px;
   text-align: center;
   padding-top: 21%;
   transform: translateY(-100%);
@@ -679,6 +730,36 @@ li span {
 }
 .caption:hover::before, .caption:hover::after {
   transform: translateY(0%);
+}
+
+.enzymatica::after {
+  color: #fff;
+  background: rgba(26, 74, 206, 0.3);
+  padding-top: 32%;
+}
+.enzymatica::before {
+  color: #fff;
+  padding-top: 17%;
+}
+
+.coldzyme::after {
+  color: #fff;
+  background: rgba(227, 13, 21, 0.4);
+  padding-top: 32%;
+}
+.coldzyme::before {
+  color: #fff;
+  padding-top: 17%;
+}
+
+.recipes::after {
+  color: #fff;
+  background: rgba(159, 92, 5, 0.4);
+  padding-top: 41%;
+}
+.recipes::before {
+  color: #fff;
+  padding-top: 26%;
 }
 
 .zeeko::after {
@@ -706,22 +787,6 @@ li span {
   padding-top: 50%;
 }
 
-.smile::after {
-  color: white;
-  background: rgba(0, 0, 0, 0.1);
-  padding-top: 70%;
-}
-.smile::before {
-  color: white;
-  padding-top: 30%;
-  transform: translateY(-120%);
-}
-@media (max-width: 1300px) {
-  .smile::before {
-    transform: translateY(0%);
-  }
-}
-
 .poland-travel::after {
   color: white;
   background: rgba(96, 206, 234, 0.5);
@@ -734,22 +799,6 @@ li span {
 }
 @media (max-width: 1300px) {
   .poland-travel::before {
-    transform: translateY(0%);
-  }
-}
-
-.stop::after {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.3);
-  padding-top: 65%;
-}
-.stop::before {
-  color: #fff;
-  padding-top: 45%;
-  transform: translateY(-130%);
-}
-@media (max-width: 1300px) {
-  .stop::before {
     transform: translateY(0%);
   }
 }
@@ -909,11 +958,12 @@ footer {
   margin-left: 17%;
   text-align: center;
   border-top: 1px solid black;
-  padding: 20px 0;
+  padding: 20px 0 25px;
 }
 footer p {
   margin: 0;
   display: inline-block;
+  font-size: 12px;
 }
 @media (max-width: 568px) {
   footer {
@@ -923,7 +973,7 @@ footer p {
 }
 
 .footer-about {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 @media (max-width: 768px) {
   .footer-about {
@@ -939,7 +989,7 @@ footer p {
 
 @keyframes push-top {
   from {
-    transform: translateY(100px);
+    transform: translateY(50px);
   }
   to {
     transform: translateY(0px);

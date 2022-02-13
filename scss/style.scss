@@ -1,5 +1,6 @@
 html {
   overflow-x: hidden;
+  overflow-y: overlay;
 }
 
 body {
@@ -292,14 +293,21 @@ li {
       display: none;
     }
   }
-  .title-zeeko {
-    margin-left: 30.5%;
+
+  .title-enzymatica {
+    margin-left: 30%;
+  }
+  .title-coldzyme {
+    margin-left: 58.5%;
+  }
+  .title-recipes {
+    margin-left: 29%;
   }
   .title-react_app {
     margin-left: 61.5%;
   }
-  .title-wola {
-    margin-left: 58.5%;
+  .title-graphics {
+    margin-left: 57%;
   }
   .title-opta-tech {
     margin-left: 33%;
@@ -310,43 +318,20 @@ li {
   .title-poland-travel {
     margin-left: 27%;
   }
-  .title-stop {
-    margin-left: 59.5%;
+
+  .title-zeeko {
+    margin-left: 58%;
   }
-  .title-graphics {
+  .title-wola {
     margin-left: 33%;
   }
 }
 
-.wrapper-zeeko {
+.wrapper-enzymatica {
   transition: all 1s;
-  width: 22%;
+  width: 23%;
   overflow: hidden;
-  margin-left: 25%;
-  @media (max-width: 1300px) {
-    width: 30%;
-    margin-left: 15%;
-  }
-  @media (max-width: 850px) {
-    width: 38%;
-    margin-left: 8%;
-  }
-  @media (max-width: 650px) {
-    width: 55%;
-    margin-left: 12%;
-  }
-  @media (max-width: 450px) {
-    width: 75%;
-    margin-left: 8%;
-  }
-}
-
-.wrapper-react_app {
-  transition: all 1s;
-  width: 20%;
-  overflow: hidden;
-  margin-left: 57%;
-  margin-top: -15%;
+  margin-left: 22%;
   @media (max-width: 1300px) {
     width: 30%;
   }
@@ -365,12 +350,89 @@ li {
   }
 }
 
-.wrapper-wola {
+.wrapper-coldzyme {
+  transition: all 1s;
+  width: 23%;
+  overflow: hidden;
+  margin-left: 50%;
+  margin-top: -7%;
+  @media (max-width: 1300px) {
+    width: 30%;
+    margin-top: 8%;
+  }
+  @media (max-width: 850px) {
+    width: 38%;
+  }
+  @media (max-width: 650px) {
+    width: 55%;
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+  @media (max-width: 450px) {
+    width: 75%;
+    margin-top: 15%;
+    margin-left: 20%;
+  }
+}
+
+.wrapper-recipes {
+  transition: all 1s;
+  width: 20%;
+  overflow: hidden;
+  margin-left: 24%;
+  margin-top: -5%;
+  @media (max-width: 1300px) {
+    width: 30%;
+    margin-top: -17%;
+    margin-left: 18%;
+  }
+  @media (max-width: 850px) {
+    width: 35%;
+    margin-top: -17%;
+    margin-left: 15%;
+  }
+  @media (max-width: 650px) {
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 18%;
+  }
+  @media (max-width: 450px) {
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 18%;
+  }
+}
+
+.wrapper-react_app {
+  transition: all 1s;
+  width: 20%;
+  overflow: hidden;
+  margin-left: 57%;
+  margin-top: -8%;
+  @media (max-width: 1300px) {
+    width: 30%;
+  }
+  @media (max-width: 850px) {
+    width: 38%;
+  }
+  @media (max-width: 650px) {
+    width: 55%;
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+  @media (max-width: 450px) {
+    width: 75%;
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+}
+
+.wrapper-graphics {
   transition: all 1s;
   width: 20%;
   overflow: hidden;
   margin-left: 52%;
-  margin-top: 5%;
+  margin-top: -3%;
   @media (max-width: 1300px) {
     width: 30%;
     margin-top: 8%;
@@ -395,7 +457,7 @@ li {
   width: 15%;
   overflow: hidden;
   margin-left: 28%;
-  margin-top: -15%;
+  margin-top: -10%;
   @media (max-width: 1300px) {
     width: 25%;
     margin-top: -15%;
@@ -415,34 +477,6 @@ li {
     width: 60%;
     margin-top: 15%;
     margin-left: 13%;
-  }
-}
-
-.wrapper-smile {
-  transition: all 1s;
-  width: 15%;
-  overflow: hidden;
-  margin-left: 52%;
-  margin-top: -5%;
-  @media (max-width: 1300px) {
-    width: 24%;
-    margin-top: -10%;
-    margin-left: 50%;
-  }
-  @media (max-width: 850px) {
-    width: 30%;
-    margin-top: -10%;
-    margin-left: 50%;
-  }
-  @media (max-width: 650px) {
-    width: 45%;
-    margin-top: 10%;
-    margin-left: 35%;
-  }
-  @media (max-width: 450px) {
-    width: 60%;
-    margin-top: 15%;
-    margin-left: 25%;
   }
 }
 
@@ -474,40 +508,35 @@ li {
   }
 }
 
-.wrapper-stop {
-  transition: all 1s;
-  width: 17%;
-  overflow: hidden;
-  margin-left: 55%;
-  margin-top: 0%;
-  @media (max-width: 1300px) {
-    width: 24%;
-    margin-top: -2%;
-    margin-left: 58%;
-  }
-  @media (max-width: 850px) {
-    width: 31%;
-    margin-top: -2%;
-    margin-left: 58%;
-  }
-  @media (max-width: 650px) {
-    width: 47%;
-    margin-top: 10%;
-    margin-left: 25%;
-  }
-  @media (max-width: 450px) {
-    width: 60%;
-    margin-top: 15%;
-    margin-left: 15%;
-  }
-}
-
-.wrapper-graphics {
+.wrapper-zeeko {
   transition: all 1s;
   width: 22%;
   overflow: hidden;
-  margin-left: 27%;
-  margin-top: -15%;
+  margin-left: 52%;
+  @media (max-width: 1300px) {
+    width: 30%;
+    margin-left: 15%;
+  }
+  @media (max-width: 850px) {
+    width: 38%;
+    margin-left: 8%;
+  }
+  @media (max-width: 650px) {
+    width: 55%;
+    margin-left: 12%;
+  }
+  @media (max-width: 450px) {
+    width: 75%;
+    margin-left: 8%;
+  }
+}
+
+.wrapper-wola {
+  transition: all 1s;
+  width: 22%;
+  overflow: hidden;
+  margin-left: 25.5%;
+  margin-top: -11%;
   @media (max-width: 1300px) {
     width: 30%;
     margin-top: -17%;
@@ -528,6 +557,19 @@ li {
     margin-top: 15%;
     margin-left: 18%;
   }
+}
+
+.wrapper-enzymatica:hover + .title-enzymatica {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+.wrapper-coldzyme:hover + .title-coldzyme {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+.wrapper-recipes:hover + .title-recipes {
+  opacity: 0;
+  transform: translateY(-20px);
 }
 
 .wrapper-zeeko:hover + .title-zeeko {
@@ -585,12 +627,13 @@ li {
     width: 100%;
     height: 100%;
     color: #000;
+    font-size: 14px;
     z-index: 1;
     transition: all 700ms ease;
     text-align: center;
     content: attr(data-description);
     background: rgba(#3f7f7b, 0.5);
-    top: 0%;
+    top: 1%;
     padding: 20px;
     padding-top: 37%;
     transform: translateY(100%);
@@ -608,7 +651,7 @@ li {
     transition: all 700ms ease;
     content: attr(data-title);
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     text-align: center;
     padding-top: 21%;
     transform: translateY(-100%);
@@ -623,6 +666,39 @@ li {
   }
 }
 
+.enzymatica {
+  &::after {
+    color: #fff;
+    background: rgba(#1a4ace, 0.3);
+    padding-top: 32%;
+  }
+  &::before {
+    color: #fff;
+    padding-top: 17%;
+  }
+}
+.coldzyme {
+  &::after {
+    color: #fff;
+    background: rgba(227, 13, 21, 0.4);
+    padding-top: 32%;
+  }
+  &::before {
+    color: #fff;
+    padding-top: 17%;
+  }
+}
+.recipes {
+  &::after {
+    color: #fff;
+    background: rgba(159, 92, 5, 0.4);
+    padding-top: 41%;
+  }
+  &::before {
+    color: #fff;
+    padding-top: 26%;
+  }
+}
 .zeeko {
   &::after {
     color: #fff;
@@ -654,22 +730,6 @@ li {
   }
 }
 
-.smile {
-  &::after {
-    color: white;
-    background: rgba(#000, 0.1);
-    padding-top: 70%;
-  }
-  &::before {
-    color: white;
-    padding-top: 30%;
-    transform: translateY(-120%);
-    @media (max-width: 1300px) {
-      transform: translateY(0%);
-    }
-  }
-}
-
 .poland-travel {
   &::after {
     color: white;
@@ -679,22 +739,6 @@ li {
   &::before {
     color: white;
     padding-top: 12%;
-    transform: translateY(-130%);
-    @media (max-width: 1300px) {
-      transform: translateY(0%);
-    }
-  }
-}
-
-.stop {
-  &::after {
-    color: #fff;
-    background: rgba(#000, 0.3);
-    padding-top: 65%;
-  }
-  &::before {
-    color: #fff;
-    padding-top: 45%;
     transform: translateY(-130%);
     @media (max-width: 1300px) {
       transform: translateY(0%);
@@ -849,10 +893,11 @@ footer {
   margin-left: 17%;
   text-align: center;
   border-top: 1px solid black;
-  padding: 20px 0;
+  padding: 20px 0 25px;
   p {
     margin: 0;
     display: inline-block;
+    font-size: 12px;
   }
   @media (max-width: 568px) {
     width: 80%;
@@ -861,7 +906,7 @@ footer {
 }
 
 .footer-about {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   @media (max-width: 768px) {
     margin-top: 400px;
   }
@@ -876,7 +921,7 @@ footer {
 
 @keyframes push-top {
   from {
-    transform: translateY(100px);
+    transform: translateY(50px);
   }
   to {
     transform: translateY(0px);

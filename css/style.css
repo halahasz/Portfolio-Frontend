@@ -338,14 +338,14 @@ li span {
 @media (max-width: 650px) {
   .wrapper-enzymatica {
     width: 55%;
-    margin-top: 10%;
+    margin-top: 4%;
     margin-left: 20%;
   }
 }
 @media (max-width: 450px) {
   .wrapper-enzymatica {
     width: 75%;
-    margin-top: 15%;
+    margin-top: 7%;
     margin-left: 15%;
   }
 }
@@ -360,12 +360,14 @@ li span {
 @media (max-width: 1300px) {
   .wrapper-coldzyme {
     width: 30%;
-    margin-top: 8%;
+    margin-top: -8%;
+    margin-left: 56%;
   }
 }
 @media (max-width: 850px) {
   .wrapper-coldzyme {
     width: 38%;
+    margin-top: 5%;
   }
 }
 @media (max-width: 650px) {
@@ -393,7 +395,7 @@ li span {
 @media (max-width: 1300px) {
   .wrapper-recipes {
     width: 30%;
-    margin-top: -17%;
+    margin-top: -5%;
     margin-left: 18%;
   }
 }
@@ -415,7 +417,7 @@ li span {
   .wrapper-recipes {
     width: 70%;
     margin-top: 15%;
-    margin-left: 18%;
+    margin-left: 14%;
   }
 }
 
@@ -429,18 +431,20 @@ li span {
 @media (max-width: 1300px) {
   .wrapper-react_app {
     width: 30%;
+    margin-top: -15%;
   }
 }
 @media (max-width: 850px) {
   .wrapper-react_app {
     width: 38%;
+    margin-left: 51%;
   }
 }
 @media (max-width: 650px) {
   .wrapper-react_app {
     width: 55%;
     margin-top: 10%;
-    margin-left: 20%;
+    margin-left: 36%;
   }
 }
 @media (max-width: 450px) {
@@ -461,12 +465,14 @@ li span {
 @media (max-width: 1300px) {
   .wrapper-graphics {
     width: 30%;
-    margin-top: 8%;
+    margin-top: -7%;
+    margin-left: 58%;
   }
 }
 @media (max-width: 850px) {
   .wrapper-graphics {
     width: 38%;
+    margin-top: -2%;
   }
 }
 @media (max-width: 650px) {
@@ -494,14 +500,14 @@ li span {
 @media (max-width: 1300px) {
   .wrapper-opta-tech {
     width: 25%;
-    margin-top: -15%;
-    margin-left: 17%;
+    margin-top: -9%;
+    margin-left: 25%;
   }
 }
 @media (max-width: 850px) {
   .wrapper-opta-tech {
     width: 30%;
-    margin-top: -20%;
+    margin-top: -12%;
     margin-left: 12%;
   }
 }
@@ -530,8 +536,8 @@ li span {
 @media (max-width: 1300px) {
   .wrapper-poland-travel {
     width: 31%;
-    margin-top: -2%;
-    margin-left: 10%;
+    margin-top: -6%;
+    margin-left: 14%;
   }
 }
 @media (max-width: 850px) {
@@ -565,19 +571,20 @@ li span {
 @media (max-width: 1300px) {
   .wrapper-zeeko {
     width: 30%;
-    margin-left: 15%;
+    margin-left: 56%;
   }
 }
 @media (max-width: 850px) {
   .wrapper-zeeko {
     width: 38%;
-    margin-left: 8%;
+    margin-left: 55%;
   }
 }
 @media (max-width: 650px) {
   .wrapper-zeeko {
     width: 55%;
-    margin-left: 12%;
+    margin-left: 36%;
+    margin-top: 8%;
   }
 }
 @media (max-width: 450px) {
